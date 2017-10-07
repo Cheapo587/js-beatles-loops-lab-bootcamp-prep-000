@@ -14,7 +14,7 @@ function johnLennonFacts(facts){
   var exciting = new Array()
 
   while(exciting.length != facts.length){
-    exciting.push(facts[exciting.length])
+    exciting.push(`${facts[exciting.length])!!!`)
   }
 
   return exciting
