@@ -15,10 +15,10 @@ function johnLennonFacts(facts){
 
   while(exciting.length != facts.length){
 
-    exciting.unshift(`${facts.slice(facts.length)}!!!`)
+    //exciting.unshift(`${facts.slice(facts.length)}!!!`)
 
     //or
-    //0 slice(1), 1 slice(2), 2 slice(3), 
+    //0 slice(1), 1 slice(2), 2 slice(3), 3 slice(4), 4 
     exciting[exciting.length] = facts.slice(exciting.length + 1)
 
   }
