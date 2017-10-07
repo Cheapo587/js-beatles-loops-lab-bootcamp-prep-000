@@ -18,8 +18,8 @@ function johnLennonFacts(facts){
     exciting.unshift(`${facts.slice(facts.length)}!!!`)
 
     //or
-
-    exciting[exciting.length] = facts.slice(exciting.length)
+    //0, slice(1), 1, slice(2), 
+    exciting[exciting.length] = facts.slice(exciting.length + 1)
 
   }
 
