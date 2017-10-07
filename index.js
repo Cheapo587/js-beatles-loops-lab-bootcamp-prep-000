@@ -14,13 +14,7 @@ function johnLennonFacts(facts){
   var exciting = new Array()
 
   while(exciting.length != facts.length){
-
-    //exciting.unshift(`${facts.slice(facts.length)}!!!`)
-
-    //or
-    //0 slice(1), 1 slice(2), 2 slice(3), 3 slice(4), 4
-    exciting[exciting.length] = facts.slice(exciting.length + 1)
-
+    exciting.push(facts[exciting.length])
   }
 
   return exciting
